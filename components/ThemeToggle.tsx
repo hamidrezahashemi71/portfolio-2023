@@ -23,7 +23,7 @@ export default function ThemeToggle() {
 
     return (
         <div 
-            className="relative h-8 flex items-center gap-10 dark:bg-gray-900 bg-teal-500 cursor-pointer rounded-full p-1 text-white"
+            className="relative h-8 flex items-center gap-10 dark:bg-gray-900 bg-teal-500 cursor-pointer rounded-full p-1 text-white z-[999]"
             onClick={handleThemeToggle}
         >
             <p>DARK</p>

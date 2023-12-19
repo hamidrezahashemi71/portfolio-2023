@@ -1,3 +1,4 @@
-type Children = {
-    children: React.ReactNode
+
+interface LanguageProp {
+    params: { lang: Locale }
 }

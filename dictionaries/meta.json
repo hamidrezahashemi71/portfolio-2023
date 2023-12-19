@@ -1,0 +1,15 @@
+{
+  "en": {
+    "home": {
+      "title": "Hamidreza Hashemi",
+      "description": "ٌWeb Developer Portfolio"
+    }
+  },
+
+  "fa": {
+      "home": {
+        "title": "حمیدرضا هاشمی",
+        "description": "پورتفولیو توسعه دهنده وب"
+      }
+  }
+}

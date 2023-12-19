@@ -9,6 +9,10 @@ const config: Config = {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-sans)'],
+        exo2: ['var(--font-exo2)']
+      },
       colors: {
         bgDark: '#030014',
         border: '#7042f88b',

@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.2",
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.92.4",
     "@react-three/fiber": "^8.15.12",
     "framer-motion": "^10.16.16",
+    "negotiator": "^0.6.3",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
