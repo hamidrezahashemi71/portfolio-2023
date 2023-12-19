@@ -1,7 +1,13 @@
 import React from 'react'
 import HeroContent from './HeroContent'
+import { Locale } from '@/config/i18n.config'
 
-export default async function Hero(props: any) {
+type Props = {
+  lang: Locale
+  data: JsonData
+}
+
+export default async function Hero(props: Props) {
   const { lang, data } = props 
 
   return (

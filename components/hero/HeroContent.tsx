@@ -6,8 +6,14 @@ import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motio
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import cloudinaryLoader from '@/cloudinaryLoader'
+import { Locale } from '@/config/i18n.config'
 
-export default function HeroContent(props: any) {
+type Props = {
+    lang: Locale
+    data: JsonData
+}
+
+export default function HeroContent(props: Props) {
     const { lang, data } = props 
  
     return ( 

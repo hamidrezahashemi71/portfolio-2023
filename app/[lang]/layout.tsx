@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import '../globals.css'
 import { roboto, sans } from '@/lib/fonts'
 import { Locale, i18n } from '@/config/i18n.config'
+import StarsCanvas from '@/components/hero/StarBackground'
 
 type RootLayoutProps = {
   children: React.ReactNode
@@ -26,9 +27,10 @@ export default function RootLayout(props: RootLayoutProps) {
       <body className={`
         ${params.lang === 'fa' ? sans.variable : roboto.variable}
         ${params.lang === 'fa' ? 'font-sans' : 'font-exo2'}
-       bg-white dark:bg-bgDark  overflow-y-scroll overflow-x-hidden
+        bg-bgDark  overflow-y-scroll overflow-x-hidden
       `}
       > 
+        <StarsCanvas />
         {children}
       </body>
     </html>
