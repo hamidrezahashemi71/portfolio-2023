@@ -5,5 +5,243 @@
     "intro": "من یک توسعه دهنده فول استک وبسایت هستم. خوشحال میشم پروژه ها و مهارتهای من رو توی این پورتفولیو مرور کنین.",
     "button": "بیشتر ببینین"
     
-  }
+  },
+
+  "header": {
+    "navLinks": [
+      {
+        "src": "#about-me",
+        "title": "درباره من"
+      },
+      {
+        "src": "#skills",
+        "title": "مهارت ها"
+      },
+      {
+        "src": "#projects",
+        "title": "پروژه ها"
+      },
+      {
+        "src": "#work-experience",
+        "title": "سابقه کاری"
+      }
+    ],
+    "logoLink": "/v1702991680/portfolio/po5u4hcngxbtxhsl71xs.png"
+  },
+
+  "skills": {
+    "slillData": [
+      {
+        "skill_name": "اچ تی ام ال 5",
+        "Image": "/v1702973527/portfolio/fms80uqsdbsrtrvwjpnt.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "سی اس اس",
+        "Image": "/v1702973524/portfolio/a8c3rdtntousl7hh8e8n.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "جاوا اسکریپت",
+        "Image": "/v1702973528/portfolio/qpxytivpwivgqrxgneja.png",
+        "width": 65,
+        "height": 65
+      },
+      {
+        "skill_name": "تیلویند",
+        "Image": "/v1702973533/portfolio/wftbhadmtmxurkngveot.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ری اکت",
+        "Image": "/v1702973532/portfolio/h5nfry79emjvufhtz3ig.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ریداکس",
+        "Image": "/v1702973531/portfolio/jjskac7qw5orhhtrx5c0.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ری اکت کوئری",
+        "Image": "/v1702973531/portfolio/ajyiu7fbjsuadwv5gbe9.svg",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "تایپ اسکریپت",
+        "Image": "/v1702973533/portfolio/nsdqgooqgfeq33aeh8cm.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "نکست 13",
+        "Image": "/v1702973529/portfolio/dyg2lkwd9k3lyztir8aw.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "فریمر موشن",
+        "Image": "/v1702973525/portfolio/vfdceajj3j4phpzlo24b.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "متریال یو آی",
+        "Image": "/v1702973529/portfolio/bxijpaj9ctehbgr2uxca.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "نود جی اس",
+        "Image": "/v1702973530/portfolio/xpxxebifb6sf1jr5vjjm.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "مانگو دی بی",
+        "Image": "/v1702973529/portfolio/msbat9szpz4yc84ai8ur.png",
+        "width": 40,
+        "height": 40
+      }
+    ],
+
+    "frontendSkills": [
+      {
+        "skill_name": "اچ تی ام ال 5",
+        "Image": "/v1702973527/portfolio/fms80uqsdbsrtrvwjpnt.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "سی اس اس",
+        "Image": "/v1702973524/portfolio/a8c3rdtntousl7hh8e8n.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "جاوا اسکریپت",
+        "Image": "/v1702973528/portfolio/qpxytivpwivgqrxgneja.png",
+        "width": 65,
+        "height": 65
+      },
+      {
+        "skill_name": "تیلویند",
+        "Image": "/v1702973533/portfolio/wftbhadmtmxurkngveot.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "متریال یو آی",
+        "Image": "/v1702973529/portfolio/bxijpaj9ctehbgr2uxca.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ری اکت",
+        "Image": "/v1702973532/portfolio/h5nfry79emjvufhtz3ig.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ریداکس",
+        "Image": "/v1702973531/portfolio/jjskac7qw5orhhtrx5c0.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "زاستند",
+        "Image": "/v1702988547/portfolio/xlozcjzxn8lrbrckqnwm.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "ری اکت کوئری",
+        "Image": "/v1702973531/portfolio/ajyiu7fbjsuadwv5gbe9.svg",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "تایپ اسکریپت",
+        "Image":"/v1702973533/portfolio/nsdqgooqgfeq33aeh8cm.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "نکست 13",
+        "Image": "/v1702973529/portfolio/dyg2lkwd9k3lyztir8aw.png",
+        "width": 80,
+        "height": 80
+      }
+    ],
+
+    "backendSkills": [
+      {
+        "skill_name": "نود جی اس",
+        "Image": "/v1702973530/portfolio/xpxxebifb6sf1jr5vjjm.png",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "اکسپرس",
+        "Image": "/v1702973526/portfolio/kht582e8okadd5fl6cy6.svg",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "skill_name": "مانگو دی بی",
+        "Image": "/v1702973529/portfolio/msbat9szpz4yc84ai8ur.png",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "skill_name": "وب سوکت",
+        "Image": "/v1702988410/portfolio/nrlx2xabqe8bhuges41p.png",
+        "width": 55,
+        "height": 55
+      },
+      {
+        "skill_name": "جی دبلیو تی",
+        "Image": "/v1702988656/portfolio/ich71itta1nttfiswojr.png",
+        "width": 70,
+        "height": 70
+      },
+      {
+        "skill_name": "پریسما",
+        "Image": "/v1702973530/portfolio/a54ly1nxca9hfwunblkf.webp",
+        "width": 70,
+        "height": 70
+      },
+      {
+        "skill_name": "گرف کیو ال",
+        "Image": "/v1702973527/portfolio/ltsxthbzlddfstslj3ar.png",
+        "width": 80,
+        "height": 80
+      }
+    ]
+  },
+  
+  "socials": [
+    {
+      "name": "تلگرام",
+      "src": "/v1702985705/portfolio/v5n85vwacm7av0asywat.png"
+    },
+    {
+      "name": "واتس اپ",
+      "src": "/v1702989849/portfolio/b8iuswyf3opa3g7pydqv.png"
+    },
+    {
+      "name": "لینکدین",
+      "src": "/v1702985972/portfolio/qhrsdg2zpuwmp2h0txwv.png"
+    },
+    {
+      "name": "گیت هاب",
+      "src": "/v1702973526/portfolio/lhegsw8cljsstjx166bu.svg"
+    }
+  ]
 }

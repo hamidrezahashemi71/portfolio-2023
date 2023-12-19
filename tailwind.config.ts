@@ -15,8 +15,12 @@ const config: Config = {
       },
       colors: {
         bgDark: '#030014',
+        bg2: '#0300145e',
         border: '#7042f88b',
-        icon: '#b49bff'
+        border2: '#7042f861',
+        icon: '#b49bff',
+        shadow: '#2A0EG1',
+        headerBg: '#03001417'
       }
     },
   },

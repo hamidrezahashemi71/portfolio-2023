@@ -3,6 +3,7 @@ import '../globals.css'
 import { roboto, sans } from '@/lib/fonts'
 import { Locale, i18n } from '@/config/i18n.config'
 import StarsCanvas from '@/components/hero/StarBackground'
+import Header from '@/components/header/Header'
 
 type RootLayoutProps = {
   children: React.ReactNode
@@ -31,6 +32,7 @@ export default function RootLayout(props: RootLayoutProps) {
       `}
       > 
         <StarsCanvas />
+        <Header params={params}/>
         {children}
       </body>
     </html>
