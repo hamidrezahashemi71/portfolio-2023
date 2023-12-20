@@ -3,7 +3,8 @@
     "jobTitle": "توسعه دهنده وب",
     "motto": ["احساس ", "خوشایند ", "توسعه پروژه وب"],
     "intro": "من یک توسعه دهنده فول استک وبسایت هستم. خوشحال میشم پروژه ها و مهارتهای من رو توی این پورتفولیو مرور کنین.",
-    "button": "بیشتر ببین"
+    "button": "بیشتر ببین",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
   },
 
   "header": {
@@ -225,7 +226,8 @@
     ],
     "text1": "مهارتهای سخت",
     "text2": "توسعه اپلیکیشن با تکنولوژی های مدرن",
-    "text3": "“جهان مدرسه و انسانها معلم های من اند.“ - جورج وایتمن"
+    "text3": "“جهان مدرسه و انسانها معلم های من اند.“ - جورج وایتمن",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/x4i99u2oexlpjyfeascp.webm"
   },
   
   "socials": [

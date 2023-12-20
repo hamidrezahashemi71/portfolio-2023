@@ -1,7 +1,6 @@
 'use client'
 
-import { delay, motion } from 'framer-motion'
-import Image from 'next/image'
+import { motion } from 'framer-motion'
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 import ClientImage from '../ClientImage'

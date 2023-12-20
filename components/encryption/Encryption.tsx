@@ -12,7 +12,7 @@ type Props = {
 }
 
 export default function Encryption(props: Props) {
-    const { lang, data } = props 
+    const { data } = props 
 
     return (
         <div className='flex flex-row relative items-center justify-center w-full min-h-screen h-full'>
@@ -22,13 +22,11 @@ export default function Encryption(props: Props) {
                     className='text-[40px] font-medium text-center text-gray-200'
                 >
                     {data.text1} 
-                    <br />
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
                         {" "}
                         &
                         {" "}
                     </span>
-                    <br />
                     {data.text2} 
                 </motion.div>
             </div>

@@ -4,7 +4,7 @@ import { Locale } from '@/config/i18n.config'
 
 type Props = {
   lang: Locale
-  data: JsonData
+  data: HeroJsonData
 }
 
 export default async function Hero(props: Props) {
@@ -18,7 +18,10 @@ export default async function Hero(props: Props) {
             loop
             className='rotate-18 absolute top-[-340px] left-0 z-1 h-full w-full object-cover'
         >
-            <source src='https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm' type='video/webm' />
+            <source 
+              src={data.videoSrc}
+              type='video/webm' 
+            />
         </video>
         <HeroContent 
           data={data}

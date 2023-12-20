@@ -1,7 +1,6 @@
 import Encryption from '@/components/encryption/Encryption'
 import Hero from '@/components/hero/Hero'
 import Skills from '@/components/skills/Skills'
-import ThemeToggle from '@/components/ThemeToggle'
 import metaJson from '@/dictionaries/meta.json'
 import { getDictionary } from '@/lib/dictionary'
 

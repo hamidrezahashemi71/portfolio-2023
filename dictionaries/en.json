@@ -3,7 +3,8 @@
     "jobTitle": "Web Developer",
     "motto": ["Experience ", "the good feeling of ", " web development"],
     "intro": "I'm a Full Stack developer with experience in Website development. Check out my projects and skills.",
-    "button": "Learn More"
+    "button": "Learn More",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
   },
 
   "header": {
@@ -225,7 +226,9 @@
     ],
     "text1": "Hard Skills",
     "text2": "Developing apps with modern technologies",
-    "text3": "“All the world is my school and all humanity is my teacher.” - George Whitman "
+    "text3": "“All the world is my school and all humanity is my teacher.” - George Whitman ",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/x4i99u2oexlpjyfeascp.webm"
+
   },
 
   "socials": [

@@ -64,7 +64,7 @@ export default async function Skills(props: Props) {
                         loop
                         muted
                         autoPlay
-                        src='https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/x4i99u2oexlpjyfeascp.webm' 
+                        src={skills.videoSrc}
                     />
                 </div>
             </div>

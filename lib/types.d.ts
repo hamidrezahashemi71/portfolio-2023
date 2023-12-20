@@ -7,6 +7,7 @@ type HeroJsonData = {
     motto: string[]
     intro: string
     button: string
+    videoSrc: string
 }
 
 type SkillJsonData = {
@@ -31,6 +32,7 @@ type SkillJsonData = {
     text1: string
     text2: string
     text3: string
+    videoSrc: string
 }
 
 type EncryptionJsonData = {
