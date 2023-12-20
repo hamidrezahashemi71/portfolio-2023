@@ -1,4 +1,5 @@
 import Hero from '@/components/hero/Hero'
+import Skills from '@/components/skills/Skills'
 import ThemeToggle from '@/components/ThemeToggle'
 import metaJson from '@/dictionaries/meta.json'
 import { getDictionary } from '@/lib/dictionary'
@@ -14,9 +15,11 @@ export default async function Home(props: LanguageProp) {
   return (
     <main className='h-full w-full'>
       <div className='flex flex-col gap-20'>
-        {/* <ThemeToggle /> */}
         <Hero 
           data={hero}
+          lang={lang}
+        />
+        <Skills
           lang={lang}
         />
       </div>

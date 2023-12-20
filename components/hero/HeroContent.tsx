@@ -10,7 +10,7 @@ import { Locale } from '@/config/i18n.config'
 
 type Props = {
     lang: Locale
-    data: JsonData
+    data: HeroJsonData
 }
 
 export default function HeroContent(props: Props) {
@@ -50,7 +50,7 @@ export default function HeroContent(props: Props) {
 
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className='text-lg text-gray-400 my-5 max-w-[600px]'
+                    className='text-lg text-gray-400 my-5 max-w-[600px] '
                 >
                     {data.intro}
                 </motion.p>
