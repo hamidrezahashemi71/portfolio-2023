@@ -1,3 +1,4 @@
+import Encryption from '@/components/encryption/Encryption'
 import Hero from '@/components/hero/Hero'
 import Skills from '@/components/skills/Skills'
 import ThemeToggle from '@/components/ThemeToggle'
@@ -10,7 +11,7 @@ export async function generateMetadata({ params }: LanguageProp) {
 
 export default async function Home(props: LanguageProp) {
   const { params: { lang } } = props
-  const { hero } = await getDictionary(lang)
+  const { hero , encryption } = await getDictionary(lang)
 
   return (
     <main className='h-full w-full'>
@@ -21,6 +22,10 @@ export default async function Home(props: LanguageProp) {
         />
         <Skills
           lang={lang}
+        />
+        <Encryption 
+          lang={lang}
+          data={encryption}
         />
       </div>
     </main>

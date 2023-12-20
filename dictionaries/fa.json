@@ -245,5 +245,23 @@
       "name": "گیت هاب",
       "src": "/v1702973526/portfolio/lhegsw8cljsstjx166bu.svg"
     }
-  ]
+  ],
+
+  "encryption": {
+    "title": "رمزگذاری",
+    "text1": "پرفورمنس",
+    "text2": "امنیت",
+    "text3": "امنیت داده های خود را با رمزگذاری سرتاسری تضمین کنید",
+    "image": {
+      "src1": "/v1702973528/portfolio/dskvggoqxyhlfhhuwsor.png",
+      "alt1": "lock-top",
+      "src2": "/v1702973528/portfolio/v1rzexkkctwza939ewon.png",
+      "alt2": "lock-main",
+      "width1": 50,
+      "height1": 50,
+      "width2": 70,
+      "height2": 70
+    },
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/xuml03ho2ykufiggv0rb.webm"
+  }
 }
