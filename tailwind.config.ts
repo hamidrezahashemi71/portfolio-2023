@@ -19,11 +19,13 @@ const config: Config = {
         border: '#7042f88b',
         border2: '#7042f861',
         icon: '#b49bff',
-        shadow: '#2A0EG1',
+        shadow: '#2A0E61',
         headerBg: '#03001417'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
 }
 export default config

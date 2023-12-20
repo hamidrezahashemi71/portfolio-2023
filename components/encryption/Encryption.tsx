@@ -16,7 +16,7 @@ export default function Encryption(props: Props) {
 
     return (
         <div className='flex flex-row relative items-center justify-center w-full min-h-screen h-full'>
-            <div className='absolute w-auto h-auto top-0 z-[5]'>
+            <div className='absolute w-auto h-auto top-11 z-[5]'>
                 <motion.div
                     variants={slideInFromTop(0.5)}
                     className='text-[40px] font-medium text-center text-gray-200'
@@ -56,7 +56,7 @@ export default function Encryption(props: Props) {
                 </div>
             </div>
 
-            <div className='absolute z-20 bottom-[10px] p-[5px]'>
+            <div className='absolute z-20 bottom-11 p-[5px]'>
                 <div className='text-[15px] italic font-medium text-center text-gray-300'>
                     {data.text3}
                 </div>

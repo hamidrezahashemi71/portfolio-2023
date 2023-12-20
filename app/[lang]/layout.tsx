@@ -28,7 +28,7 @@ export default function RootLayout(props: RootLayoutProps) {
       <body className={`
         ${params.lang === 'fa' ? sans.variable : roboto.variable}
         ${params.lang === 'fa' ? 'font-sans' : 'font-exo2'}
-        bg-bgDark  overflow-y-scroll overflow-x-hidden
+        bg-bgDark  overflow-y-scroll overflow-x-hidden selection:text-border scrollbar scrollbar-thumb-border scrollbar-track-shadow
       `}
       > 
         <StarsCanvas />
