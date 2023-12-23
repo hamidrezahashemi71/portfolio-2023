@@ -266,5 +266,35 @@
       "height2": 70
     },
     "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/xuml03ho2ykufiggv0rb.webm"
+  },
+  "projects": {
+    "title": "My Projects",
+    "projectCardsProps": [
+      {
+        "src": "/v1703061763/portfolio/bd121pwfklkd0hxnt8un.webp",
+        "title": "Blogging App",
+        "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
+      },
+      {
+        "src": "/v1703061763/portfolio/yndhqaozcjlhx6c3dvfu.webp",
+        "title": "Finance All",
+        "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
+      },
+      {
+        "src": "/v1703061763/portfolio/t0z4jeyhxgsweffatsmt.webp",
+        "title": "Eccomerce App",
+        "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
+      },
+      {
+        "src": "/v1703061763/portfolio/bd4yrxgggqlu6qpuyejo.png",
+        "title": "Exclusive CMS Platform",
+        "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
+      },
+      {
+        "src": "/v1703061763/portfolio/fafdfctp67hyhlttoqu0.png",
+        "title": "Namaagahi Website",
+        "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
+      }
+    ]
   }
 }

@@ -53,3 +53,12 @@ type EncryptionJsonData = {
     videoSrc: string
 }
 
+type ProjectsJsonData = {
+    title: string;
+    projectCardsProps: {
+        src: string;
+        title: string;
+        description: string;
+    }[];
+}
+

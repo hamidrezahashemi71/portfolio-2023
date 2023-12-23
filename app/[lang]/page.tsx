@@ -1,5 +1,6 @@
 import Encryption from '@/components/encryption/Encryption'
 import Hero from '@/components/hero/Hero'
+import Projects from '@/components/projects/Projects'
 import Skills from '@/components/skills/Skills'
 import metaJson from '@/dictionaries/meta.json'
 import { getDictionary } from '@/lib/dictionary'
@@ -10,14 +11,14 @@ export async function generateMetadata({ params }: LanguageProp) {
 
 export default async function Home(props: LanguageProp) {
   const { params: { lang } } = props
-  const { hero , encryption } = await getDictionary(lang)
+  const { hero, encryption, projects } = await getDictionary(lang)
 
   return (
     <main className='h-full w-full'>
       <div className='flex flex-col gap-20'>
         <Hero 
-          data={hero}
           lang={lang}
+          data={hero}
         />
         <Skills
           lang={lang}
@@ -25,6 +26,10 @@ export default async function Home(props: LanguageProp) {
         <Encryption 
           lang={lang}
           data={encryption}
+        />
+        <Projects
+          lang={lang}
+          data={projects}
         />
       </div>
     </main>

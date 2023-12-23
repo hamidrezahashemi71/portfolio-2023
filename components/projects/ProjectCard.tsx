@@ -11,12 +11,12 @@ export default function ProjectCard(props: Props) {
     const { src, title, description } = props
 
     return (
-        <div className='relative overflow-hidden rounded-lg shadow-lg border border-shadow'>
+        <div className='relative col-span-12 sm:col-span-6 md:col-span-4 overflow-hidden rounded-lg shadow-lg border border-shadow'>
             <ClientImage
                 src={src}
                 alt={title}
                 width={1000}
-                height={1000}
+                height={1000} 
                 className='w-full object-contain'
             />
 
