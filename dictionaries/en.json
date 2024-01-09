@@ -1,12 +1,4 @@
 {
-  "hero": {
-    "jobTitle": "Web Developer",
-    "motto": ["Experience ", "the good feeling of ", " web development"],
-    "intro": "I'm a Full Stack developer with experience in Website development. Check out my projects and skills.",
-    "button": "Learn More",
-    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
-  },
-
   "header": {
     "navLinks": [
       {
@@ -29,6 +21,17 @@
     "logoLink": "/v1702991680/portfolio/po5u4hcngxbtxhsl71xs.png"
   },
   
+  "hero": {
+    "jobTitle": "Web Developer",
+    "motto": [
+      "Experience ",
+      "the good feeling of ",
+      " web development"
+    ],
+    "intro": "I'm a Full Stack developer with experience in Website development. Check out my projects and skills.",
+    "button": "Learn More",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
+  },
   "skills": {
     "slillData": [
       {
@@ -234,19 +237,23 @@
   "socials": [
     {
       "name": "Telegram",
-      "src": "/v1702985705/portfolio/v5n85vwacm7av0asywat.png"
+      "src": "/v1702985705/portfolio/v5n85vwacm7av0asywat.png",
+      "href": "https://t.me/Hamidreza9"
     },
     {
       "name": "WhatsApp",
-      "src": "/v1702989849/portfolio/b8iuswyf3opa3g7pydqv.png"
+      "src": "/v1702989849/portfolio/b8iuswyf3opa3g7pydqv.png",
+      "href": "https://api.whatsapp.com/send?phone=989195892013"
     },
     {
       "name": "LinkedIn",
-      "src": "/v1702985972/portfolio/qhrsdg2zpuwmp2h0txwv.png"
+      "src": "/v1702985972/portfolio/qhrsdg2zpuwmp2h0txwv.png",
+      "href": "https://www.linkedin.com/in/hh7192/"
     },
     {
       "name": "Github",
-      "src": "/v1702973526/portfolio/lhegsw8cljsstjx166bu.svg"
+      "src": "/v1703333755/portfolio/jadelbeiuw2x6talgoks.png",
+      "href": "https://github.com/hamidrezahashemi71"
     }
   ],
 
@@ -267,6 +274,7 @@
     },
     "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973526/portfolio/xuml03ho2ykufiggv0rb.webm"
   },
+
   "projects": {
     "title": "My Projects",
     "projectCardsProps": [
@@ -296,5 +304,8 @@
         "description": "habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam"
       }
     ]
+  },
+  "footer": {
+    "title": "Contact me"
   }
 }

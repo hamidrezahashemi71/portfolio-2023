@@ -36,14 +36,15 @@ export default async function Header(props: LanguageProp) {
             </div>
             <div className='flex flex-row gap-5'>
                 {socials.map((social) => (
-                    <ClientImage
-                        src={social.src}
-                        alt={social.name}
-                        key={social.name}
-                        className='cursor-pointer hover:scale-125 transition-all duration-200 hover:rotate-[25deg]'
-                        width={24}
-                        height={24}
-                    />
+                    <Link href={social.href} key={social.name} target="_blank">
+                        <ClientImage
+                            src={social.src}
+                            alt={social.name}
+                            className='cursor-pointer hover:scale-125 transition-all duration-200 hover:rotate-[25deg]'
+                            width={24}
+                            height={24}
+                        />
+                    </Link>
                 ))}
             </div>
         </div>

@@ -1,12 +1,4 @@
 {
-  "hero": {
-    "jobTitle": "توسعه دهنده وب",
-    "motto": ["احساس ", "خوشایند ", "توسعه پروژه وب"],
-    "intro": "من یک توسعه دهنده فول استک وبسایت هستم. خوشحال میشم پروژه ها و مهارتهای من رو توی این پورتفولیو مرور کنین.",
-    "button": "بیشتر ببین",
-    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
-  },
-
   "header": {
     "navLinks": [
       {
@@ -29,6 +21,17 @@
     "logoLink": "/v1702991680/portfolio/po5u4hcngxbtxhsl71xs.png"
   },
 
+  "hero": {
+    "jobTitle": "توسعه دهنده وب",
+    "motto": [
+      "احساس ",
+      "خوشایند ",
+      "توسعه پروژه وب"
+    ],
+    "intro": "من یک توسعه دهنده فول استک وبسایت هستم. خوشحال میشم پروژه ها و مهارتهای من رو توی این پورتفولیو مرور کنین.",
+    "button": "بیشتر ببین",
+    "videoSrc": "https://res.cloudinary.com/didiogeua/video/upload/v1702973524/portfolio/scsxgr7hvatyftnkeqbg.webm"
+  },
   "skills": {
     "slillData": [
       {
@@ -233,19 +236,23 @@
   "socials": [
     {
       "name": "تلگرام",
-      "src": "/v1702985705/portfolio/v5n85vwacm7av0asywat.png"
+      "src": "/v1702985705/portfolio/v5n85vwacm7av0asywat.png",
+      "href": "https://t.me/Hamidreza9"
     },
     {
       "name": "واتس اپ",
-      "src": "/v1702989849/portfolio/b8iuswyf3opa3g7pydqv.png"
+      "src": "/v1702989849/portfolio/b8iuswyf3opa3g7pydqv.png",
+      "href": "https://api.whatsapp.com/send?phone=989195892013"
     },
     {
       "name": "لینکدین",
-      "src": "/v1702985972/portfolio/qhrsdg2zpuwmp2h0txwv.png"
+      "src": "/v1702985972/portfolio/qhrsdg2zpuwmp2h0txwv.png",
+      "href": "https://www.linkedin.com/in/hh7192/"
     },
     {
       "name": "گیت هاب",
-      "src": "/v1702973526/portfolio/lhegsw8cljsstjx166bu.svg"
+      "src": "/v1703333755/portfolio/jadelbeiuw2x6talgoks.png",
+      "href": "https://github.com/hamidrezahashemi71"
     }
   ],
 
@@ -296,5 +303,8 @@
         "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،"
       }
     ]
+  },
+  "footer": {
+    "title": "ارتباط با من"
   }
 }
